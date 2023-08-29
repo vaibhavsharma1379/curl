@@ -32,4 +32,8 @@ function createRecord($url){
     // echo "<pre>"; print_r($recordData);
    return $recordData;
 }
+// function getDataByEmail($url,$email){
+//     global $ch;
+//     curl_setopt($ch,CURLOPT_URL,$url,)
+// }
 ?>

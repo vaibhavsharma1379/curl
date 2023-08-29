@@ -1,6 +1,6 @@
 <?php
 $headers = [
-    "User-Agent: Example REST API Client",
+    "User-Agent: Vaibhav",
    
 ];
 $ch=curl_init();

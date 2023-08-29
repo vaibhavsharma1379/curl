@@ -2,9 +2,8 @@
 require_once "./function/function.php";
 if(isset($_POST["submit"])){
    $recordData= createRecord("https://reqres.in/api/users");
-   echo "<p>Repository created successfully. </p>";
-   echo "<a href='show.php?email=".$recordData["email"]."'>Show</a>";
-   
+   echo "<p>".$recordData["email"]." Record created successfully. </p>";
+//    echo "<a href='show.php?email=".$recordData["email"]."'>Show</a>";
 }
 ?>
 <!DOCTYPE html>
